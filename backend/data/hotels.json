@@ -1,0 +1,34 @@
+[
+  {
+    "userId": "user1",
+    "name": "Ocean View Hotel",
+    "city": "Miami",
+    "country": "USA",
+    "description": "Beautiful ocean view hotel with luxury amenities.",
+    "type": "Resort",
+    "adultCount": 2,
+    "childCount": 2,
+    "facilities": ["Pool", "Spa", "WiFi", "Restaurant"],
+    "pricePerNight": 250,
+    "starRating": 5,
+    "imageUrls": ["../data/hotel_images/pexels-andrea-davis-11535806.jpg", "../data/hotel_images/pexels-andrea-davis-14369630.jpg"],
+    "lastUpdated": {"$date": "2025-12-22T00:00:00Z"},
+    "bookings": []
+  },
+  {
+    "userId": "user2",
+    "name": "Mountain Retreat",
+    "city": "Aspen",
+    "country": "USA",
+    "description": "Cozy mountain retreat surrounded by nature.",
+    "type": "Cabin",
+    "adultCount": 4,
+    "childCount": 2,
+    "facilities": ["Fireplace", "WiFi", "Hiking Trails"],
+    "pricePerNight": 180,
+    "starRating": 4,
+    "imageUrls": ["../data/hotel_images/pexels-fazyl-nalgiev-1230771.jpg", "../data/hotel_images/pexels-jakub-zerdzicki-18509443.jpg"],
+    "lastUpdated": {"$date": "2025-12-22T00:00:00Z"},
+    "bookings": []
+  }
+]
